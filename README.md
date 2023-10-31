@@ -2,6 +2,17 @@
 
 Project from [AsynConf 2023](https://asynconf.fr/#tournament) tounament. Realized in Bash scripting just to have cli instead a web server.
 
+## Tasks
+
+- [x] Create main.sh
+- [x] Extract to differents files each choices
+- [x] Dialog with the client by proposing choices
+- [ ] Let the client taping his response (for km or year for example)
+- [x] Find the correct result
+- [x] Handling errors
+- [x] Publish on GitHub
+- [ ] Publish on Replit
+
 ## Requirements
 
 - Bash ^4.3
