@@ -1,5 +1,7 @@
 # Tounament
 
+Project from [AsynConf 2023](https://asynconf.fr/#tournament) tounament. Realized in Bash scripting just to have cli instead a web server.
+
 ## Requirements
 
 - Bash ^4.3
