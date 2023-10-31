@@ -1,4 +1,5 @@
 #!/opt/homebrew/bin/bash
+
 car_type() {
   # Declare an index array
   declare -a table
@@ -56,6 +57,8 @@ car_type() {
 
         if [ $index == $user_choice ]; then
           echo "You choose: [${index}] - Name: ${data["name"]}, Weight: ${data["weight"]}, Eco Note: ${data["eco_note"]}"
+          # car_type_name=${data["name"]}
+          # car_type_weight=${data["weight"]}
           note=${data["eco_note"]}
         fi
       done
